@@ -1,4 +1,4 @@
-import Cube from "./components/Cube";
+import Cube from "./src/components/Cube";
 
 export default Cube;
 
