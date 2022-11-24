@@ -1,7 +1,9 @@
 {
   "name": "hexa-scroller",
+  "description": "This is a version of a feature rich omni scroll component. It allows the user to track where he is on the page but alssoo jump around the page.",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "PavaoZornija1",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.16.5",
@@ -14,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
