@@ -19,6 +19,7 @@ const Cube = (props) => {
     },
     [dragging]
   );
+
   const endDragRotate = useCallback((e) => {
     setDragging(false);
   }, []);
@@ -79,15 +80,13 @@ const Cube = (props) => {
   }, [dragRotate, endDragRotate]);
 
   return (
-    <div id="cont">
-      <div id="cube">
-        <div className="face one"></div>
-        <div className="face two"></div>
-        <div className="face three"></div>
-        <div className="face four"> </div>
-        <div className="face five"> </div>
-        <div className="face six"></div>
-      </div>
+    <div id="cube">
+      <div className="face one"></div>
+      <div className="face two"></div>
+      <div className="face three"></div>
+      <div className="face four"> </div>
+      <div className="face five"> </div>
+      <div className="face six"></div>
     </div>
   );
 };
