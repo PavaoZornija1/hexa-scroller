@@ -1,5 +1,5 @@
 import "./App.css";
-import CubeScrollerWrapper from "./components/CubeScrollerWrapper";
+import CubeScrollerWrapper from "./lib/components/CubeScrollerWrapper";
 
 function App() {
   return (

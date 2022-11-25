@@ -3,6 +3,20 @@
   "description": "This is a version of a feature rich omni scroll component. It allows the user to track where he is on the page but also jump around the page.",
   "version": "0.2.0",
   "private": false,
+  "keywords": [
+    "react",
+    "components",
+    "ui"
+  ],
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavaoZornija1/hexa-scroller"
+  },
   "author": "PavaoZornija <pzornija@gmail.com>",
   "main": "index.js",
   "dependencies": {
@@ -40,8 +54,8 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.18.10",
-    "@babel/core": "^7.18.10",
-    "@babel/preset-env": "^7.18.10"
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2"
   }
 }
